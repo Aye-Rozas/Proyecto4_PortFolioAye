@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    /* FONTS */
+  --pr4-primary-font: 'Poppins', 'Comfortaa';
+
+  /* BRANDING COLORS */
+  --pr4-color-1: white;
+  --pr4-color-2: #ae8fdb;
+  --pr4-color-3: #6fdcbf;
+  --pr4-color-4: #72cada;
+  --pr4-color-5: #fef8b4;
+  --pr4-color-6: #404040;
+  /* BACKGROUND-COLORS */
+  --pr4-primary-bg: var(--pr4-color-3);
+  --heading: var(--pr4-color-1);
+  --body:var(--pr4-color-4);
+  /* TEXT-COLORS */
+  --pr4-primary-text: var(--pr4-color-6);
+  --pr4-secondary-text: var(--pr4-color-1);
+  --pr4-tertiary-text: var(--pr4-color-5);
+  /*FONT-SIZE */
+--pr4-extraFontS-text:1rem ;
+
+  /* BORDER RADIUS */
+  --pr4-br: 12px;
+
+  /* SPACINGS */
+
+  --pr4-padding-xs: 0.75rem;
+  --pr4-padding-s: 1rem;
+  --pr4-padding-m: 2rem;
+
+  --pr4-margin-m: 2rem;
+  --pr4-margin-l:50px;
+
+  --pr4-gap-xs: 0.5rem;
+  --pr4-gap-s: 1rem;
+  --pr4-gap-m: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: var(--pr4-primary-bg);
+  color: var(--body);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  letter-spacing: 4px;
+}
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--body);
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  height: calc(100vh - 180px - 40px);
+  scroll-behavior: smooth;
+}
+main::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+main::-webkit-scrollbar-track {
+  background-color:var(--pr4-color-3) ;
+}
+main::-webkit-scrollbar-thumb {
+  background-color:var(--pr4-color-5) ;
+}
+
+section {
+  min-height: 100%;
+}

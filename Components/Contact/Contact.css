@@ -1,0 +1,94 @@
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--pr4-gap-m);
+  padding: 2rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.contactLeft,
+.contactRight {
+  flex: 1;
+  min-width: 200px;
+}
+.contactLeft h2 {
+  font-size: 1.8rem;
+  color: var(--pr4-color-2);
+  margin-bottom: var(--pr4-margin-m);
+}
+
+.contactAnimation {
+  width: 300px;
+  animation: float 3s ease-in-out infinite;
+  margin-bottom: var(--pr4-margin-m);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pr4-gap-xs);
+  background: white;
+  padding: var(--pr4-padding-m);
+  border-radius: var(--pr4-br);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+  color: var(--pr4-color-2);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: var(--pr4-padding-xs);
+  border: 1px solid #ccc;
+  border-radius: var(--pr4-br);
+  font-size: var(--pr4-extraFontS-text);
+  resize: vertical;
+}
+
+.buttonContact {
+  background-color:var(--pr4-color-2);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--pr4-br);
+  font-size: var(--pr4-extraFontS-text);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonContact:hover {
+  background-color:var(--pr4-color-5);
+  color: var(--pr4-color-6);
+}
+.buttonContact:active {
+  transform: scale(0.98);
+}
+@media (max-width:650px) {
+  .contact-section{
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+    overflow-y: visible;
+  }
+  .contactLeft,
+.contactRight {
+  width: 100%;
+}
+
+}

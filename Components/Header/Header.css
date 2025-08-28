@@ -1,0 +1,23 @@
+header { 
+  background-color: var(--pr4-color-2);
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header h1{
+  font-family:'Comfortaa' ;
+  font-weight: 900;
+}
+header h1 {
+  text-shadow: 0.5px 0.5px 0 var(--pr4-color-4);
+}
+h1:hover{
+  color: var(--pr4-color-5);
+}
+header li {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+}

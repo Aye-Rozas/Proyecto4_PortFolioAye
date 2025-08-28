@@ -1,0 +1,22 @@
+main {
+  overflow-y: auto;
+  font-family: 'Poppins';
+}
+
+#switcher {
+  background-color: var(--body);
+  color: var(--heading);
+  border-radius: var(--pr4-br);
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: var(--pr4-margin-l);
+}
+
+.info-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
