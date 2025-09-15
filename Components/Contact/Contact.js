@@ -5,7 +5,7 @@ const template=() =>{
   <section class="contact-section" id="contact-section">
   <div class="contactLeft">
   <h2>Ready to transform your idea into something real? Let’s start today.</h2>
-  <img src="./public/assets/contact.jpg" alt="contact-icon" class="contactAnimation"/></div>
+  <img src="/public/assets/contact.jpg" alt="contact-icon" class="contactAnimation"/></div>
   <div class="contactRight">
   <form action="#" method="post" class="contact-form">
   <label for="name">Your Name</label>
