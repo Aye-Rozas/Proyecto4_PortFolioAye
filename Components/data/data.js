@@ -2,7 +2,7 @@ const data = {
   name: 'Ayelen Rozas',
   address: 'Olesa de Montserrat, BARCELONA',
   email: 'ayelen29rozas@gmail.com',
-  avatar: './src/assets/avatar.png',
+  avatar: './public/assets/avatar.png',
   aboutMe:
     'I am a front-end developer with curiosity and a talent for design. I enjoy learning, sharing my ideas, and working with new tools. I pay close attention to detail, accessibility, and performance, striving to deliver the best user experience.I am looking to join a team where I can contribute creativity, a desire to experiment, and help improve software development workflows. ',
 
@@ -37,14 +37,14 @@ const data = {
   ],
 
   skills: [
-    { name: 'HTML5', icon: './src/assets/html.png' },
-    { name: 'CSS3', icon: './src/assets/css3.png' },
-    { name: 'JavaScript', icon: './src/assets/javascript.png' },
-    { name: 'React', icon: './src/assets/react.png' },
-    { name: 'Node.js', icon: './src/assets/nodo-js.png' },
-    { name: 'RESTful API', icon: './src/assets/api.png' },
-    { name: 'GitHub', icon: './src/assets/github.png' },
-    { name: 'Figma', icon: './src/assets/figma.png' },
+    { name: 'HTML5', icon: './public/assets/html.png' },
+    { name: 'CSS3', icon: './public/assets/css3.png' },
+    { name: 'JavaScript', icon: './public/assets/javascript.png' },
+    { name: 'React', icon: './public/assets/react.png' },
+    { name: 'Node.js', icon: './public/assets/nodo-js.png' },
+    { name: 'RESTful API', icon: './public/assets/api.png' },
+    { name: 'GitHub', icon: './public/assets/github.png' },
+    { name: 'Figma', icon: './public/assets/figma.png' },
   ],
 
   projects: [
