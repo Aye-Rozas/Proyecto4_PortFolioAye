@@ -4,7 +4,28 @@
   align-items: center;
   justify-content: center;
   padding: var(--pr4-padding-m);
-  gap:var(--pr4-gap-m);
+  gap: var(--pr4-gap-m);
+  background-color: var(--pr4-color-1);
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  color: var(--pr4-color-2);
+}
+.aboutme > h2 {
+  color: var(--pr4-color-2);
+  font-size: 2rem;
+  border-bottom: 2px solid var(--pr4-color-2);
+  text-align: center;
+}
+.aboutme-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pr4-gap-m);
+  flex-wrap: wrap;
+}
+.aboutme-content p {
+  max-width: 600px;
+  text-align: left;
 }
 .avatar {
   width: 250px;
@@ -13,8 +34,10 @@
   border-radius: 50%;
   cursor: pointer;
 }
-
-.aboutme > .rotate {
+.avatar.rotate:hover {
+  transform: none;
+}
+.avatar.rotate {
   animation: rotate infinite 5s;
 }
 .avatar:hover {
@@ -25,11 +48,9 @@
 .aboutme > p {
   max-width: 700px;
   text-align: center;
-  color:var(--pr4-color-6);
 }
 
 .Skills {
-  background-color: var(--pr4-color-1);
   width: 100%;
   display: flex;
   gap: var(--pr4-gap-s);
@@ -38,13 +59,33 @@
   align-items: center;
 }
 
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--pr4-color-4);
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 120px;
+  height: 140px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  }
+.skillItem > h3 {
+  color: var(--pr4-color-2);
+  text-align: center;
+}
 .skillsIcon {
-
-  color: var(--background);
+  background-color: var(--pr4-color-1);
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
 }
 
-.skillsIcon:hover{
-  transform:  translateX(10px);
+.skillsItem:hover {
+  transform: translateX(10px);
   transition: transform 0.3s ease;
 }
 

@@ -1,13 +1,17 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap:var(--pr4-gap-xs);
+  gap: var(--pr4-gap-xs);
   justify-content: center;
   align-items: center;
-  background-color: var(--pr4-primary-bg);
-  color: var(--pr4-color-1);
+  background-color: var(--pr4-color-1);
+  background-image: url('https://www.transparenttextures.com/patterns/connected.png');
+  color: var(--pr4-color-2);
 }
-
+.projects h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--pr4-color-2);
+}
 .projects > ul {
   display: grid;
   padding: var(--pr4-padding-s);
@@ -23,6 +27,8 @@
   align-items: flex-start;
   gap: var(--pr4-gap-xs);
   border-radius: 16px;
+  border-left: solid 1px var(--pr4-color-2);
+  border-bottom: solid 1px var(--pr4-color-2);
   padding: var(--pr4-padding-s);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -43,9 +49,9 @@
 .projects a {
   padding: 2px 8px;
   background-color: var(--heading);
-  color: var(--pr4-color-4);
+  color: var(--pr4-color-2);
 }
-.projects a:hover{
-background-color: var(--pr4-color-5);
-color: var(--pr4-color-6);
+.projects a:hover {
+  background-color: var(--pr4-color-5);
+  color: var(--pr4-color-6);
 }

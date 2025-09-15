@@ -6,5 +6,8 @@
   text-align: center;
   gap: var(--pr4-gap-s);
   margin: 165px 0px;
-  color:var(--pr4-color-5);
+}
+.education h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--pr4-color-2);
 }

@@ -7,12 +7,14 @@
   gap: 2rem;
   margin: 80px 0px;
 }
-
+.experience h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--pr4-color-2);
+}
 .experience ul {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   max-width: 600px;
   padding: 2rem;
-  color:var(--pr4-color-5);
 }

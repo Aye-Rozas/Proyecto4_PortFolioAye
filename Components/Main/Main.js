@@ -3,7 +3,7 @@ import { AboutMe } from "../AboutMe/AboutMe.js";
 import Education from "../Education/Education.js";
 import Experience from "../Experience/Experience.js";
 import Projects from "../Projects/Projects.js";
-import Contact from "../Contact/Contact.js";
+import Contact  from "../Contact/Contact.js";
 
 let show = "Experience";
 

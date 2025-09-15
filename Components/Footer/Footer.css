@@ -1,5 +1,6 @@
 footer {
-  color: black;
+  color: var(--pr4-color-1);
+  background-color: var(--pr4-color-2);
   padding: 4px 0;
   display: flex;
   justify-content: center;

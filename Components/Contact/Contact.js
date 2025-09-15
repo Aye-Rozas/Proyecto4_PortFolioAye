@@ -21,7 +21,12 @@ const Contact = () => {
   return template();
 };
 
-export default Contact;
+export const addContactListeners=()=>{
+  const form=document.querySelector(".contact-form");
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    alert("✅ Message sent!");
+    form.reset();
+});}
 
-    //  <p>${data.address}</p>
-    //  <a href=${`mailto:${data.email}>Contact me</a>`}
+export default Contact;
